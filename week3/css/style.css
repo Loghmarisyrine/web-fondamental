@@ -1,0 +1,29 @@
+.s {
+    border-style: solid;
+    color: #40afb0;
+    border-color: #40afb0;
+    border-radius: 40px;
+
+    margin-top: 80px;
+    font-size: 30px;
+    padding: 10 60 10 60;
+}
+
+.b2 {
+    background-color: #10dfe3;
+    color: white;
+    font-size: 40px;
+
+    border-radius: 80%;
+    padding: 10 30 2 15;
+}
+
+.c {
+    background-color: #2B78E4;
+    color: white;
+    padding: 5 30 5 30px;
+
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 4px 4px 3px black
+}
