@@ -1,0 +1,52 @@
+.nav {
+    background-color: rgb(50, 48, 48);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 15px;
+    color: white;
+}
+
+.nav-links li {
+    display: inline;
+    color: white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: darkgrey;
+}
+
+.btn {
+
+
+    background-color: cyan;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 100px 15px 100px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a.active {
+    color: white;
+}
