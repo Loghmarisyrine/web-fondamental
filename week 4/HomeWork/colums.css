@@ -1,0 +1,64 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.col {
+    flex: 1;
+    display: flex;
+
+    border: 1px solid rgb(63, 159, 191);
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 159, 191);
+    flex-grow: 2;
+    height: 30px;
+
+
+
+}
+
+.col-2 {
+    flex: 2.5;
+    border: 1px solid rgb(63, 159, 191);
+    color: white;
+    margin-right: 10px;
+    background-color: rgb(63, 159, 191);
+    height: 30px;
+
+
+}
+
+.col-2:first-child {
+    color: white;
+    flex: 2;
+    border: 0px solid rgb(63, 159, 191);
+    margin-right: 10px;
+    background-color: rgb(63, 159, 191);
+    height: 30px;
+
+}
+
+.col-3 {
+    color: white;
+    flex: 2;
+    border: 1px solid rgb(63, 159, 191);
+    background-color: rgb(63, 159, 191);
+    margin-right: 10px;
+
+
+}
+
+.col-3:first-child {
+    color: white;
+    flex: 5;
+    height: 40px;
+
+    margin-right: 10px;
+    background-color: rgb(63, 159, 191);
+
+}
